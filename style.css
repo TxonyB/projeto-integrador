@@ -1,0 +1,227 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+.navigation button {
+  border-radius: 10.7rem;
+  width: 20rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  background-color: #c6343f;
+  color: #f5f5f5;
+  border: none;
+}
+
+.navigation button:hover {
+  background-color: #f5f5f5;
+  color: #c6343f;
+}
+
+.navbar {
+  background-color: #14130d;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+  height: 37.1rem;
+}
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 38.9rem;
+}
+
+.about {
+  position: absolute;
+  width: 90rem;
+  height: 50rem;
+  left: 20rem;
+  top: 107rem;
+  align-items: center;
+  padding: 10rem;
+  font-size: 2.5rem;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.about div {
+  font-family: 'Hermeneus One';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.about h1 {
+  position: relative;
+  font-size: 5rem;
+}
+
+.background-services {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 150rem;
+  background-color: #f5f5f5;
+}
+
+.logo {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 35rem;
+  top: 2rem;
+}
+
+.navigation {
+  position: absolute;
+  font-size: 3rem;
+  display: flex;
+  color: white;
+  list-style-type: none;
+  gap: 10rem;
+  justify-content: center;
+  top: 26rem;
+  width: 100%;
+  border-top: 4px solid #f5f5f5;
+  padding-top: 2rem;
+}
+
+.login {
+  display: flex;
+  font-size: 3.2rem;
+  align-items: center;
+  position: absolute;
+  top: 7rem;
+  left: 8rem;
+  color: white;
+}
+
+.list-item {
+  border-bottom: 3px solid #f5f5f5;
+  padding-bottom: 1rem;
+}
+
+#about {
+  border-bottom: 3px solid red;
+  margin-bottom: 5rem;
+}
+
+.services {
+  position: absolute;
+  width: 100%;
+  height: 180%;
+  text-align: center;
+  font-size: 4.8rem;
+  top: 180rem;
+  color: white;
+  background-image: url('./assets/serviços.png');
+  background-repeat: no-repeat;
+}
+#title {
+  position: relative;
+  padding-top: 20rem;
+  border-bottom: 3px solid #c6343f;
+  text-align: center;
+}
+
+.cortes {
+  margin-top: 5rem;
+  padding-top: 7rem;
+  width: 80%;
+  background-repeat: no-repeat;
+}
+.contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 300rem;
+  background-color: #f5f5f5;
+}
+
+.contact h1 {
+  position: relative;
+  font-size: 5rem;
+  text-align: center;
+  border-bottom: 3px solid #c6343f;
+  width: 50%;
+  justify-content: center;
+  left: 25%;
+  padding-top: 5rem;
+}
+
+.local {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  padding-top: 8rem;
+  padding-left: 10rem;
+  background-color: #f5f5f5;
+}
+
+.informations {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 55%;
+  top: 20rem;
+  background-color: #f5f5f5;
+  font-size: 3rem;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  left: 0px;
+  top: 370rem;
+  background-color: #14130d;
+}
+
+.logo-rodape {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 15rem;
+  top: 3rem;
+}
+
+.text-logo {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  left: 1.5rem;
+}
+
+.list-rodape {
+  position: relative;
+  color: white;
+  font-size: 2.5rem;
+  left: 40%;
+  top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.schedules {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  left: 65%;
+  color: white;
+  font-size: 2.5rem;
+  bottom: 10rem;
+}
+.social-icons {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 80%;
+  bottom: 35rem;
+}
